@@ -7,6 +7,7 @@ module.exports = {
       },
       colors: {
         higblue: '#353b85',
+        higgreen: '#0fb1bf',
       }
     },
   },
