@@ -7,7 +7,7 @@ function Quotation() {
   return (
     <div className="flex flex-col sm:flex-row bg-white w-full">
       <div className='flex flex-col justify-center items-start p-6 gap-2 sm:w-2/4 sm:min-h-full'>
-        <h1 className='font-sans text-5xl font-medium text-higblue mb-2'>
+        <h1 className='font-sans text-4xl font-medium text-higblue mb-2'>
           SOLICITE A <br /> SUA COTAÇÃO
         </h1>
         <p className='font-sans font-normal text-xl text-higblue'>
@@ -15,7 +15,7 @@ function Quotation() {
           Personalizados com a expertise da nossa equipe em limpeza e polimento de vidros, higienização em estofados e carpetes.
         </p>
         <Link href='https://wa.me/+5521997558799' className='cursor-pointer bg-higgreen p-4 mt-3 rounded-full text-2xl text-center font-bold whitespace-nowrap'>
-          AGENDA AGORA MESMO
+          AGENDE AGORA MESMO
         </Link>
       </div>
       <div className='flex justify-center items-center sm:w-2/4 sm:min-h-full'>
