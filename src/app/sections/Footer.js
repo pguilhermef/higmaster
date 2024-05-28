@@ -33,7 +33,7 @@ function Footer () {
         </div>
       </div>
       <div className="text-center font-semibold font-sans bg-higblue">
-        <p className="text-sm text-nowrap sm:text-md pb-4">Material produzido por Agência CAPS e ProduzAí Produtora</p>
+        <p className="text-xs text-nowrap sm:text-md pb-4">Material produzido por Agência CAPS e ProduzAí Produtora</p>
         {/* <p className="text-sm text-nowrap sm:text-md cursor-pointer"><Link href='https://github.com/pguilhermef'>Desenvolvimento por @pguilhermef</Link></p> */}
       </div>
     </div>
