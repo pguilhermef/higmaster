@@ -21,13 +21,13 @@ function Header() {
         </div>
         <div className='h-2/6 flex justify-center items-center'>
           <Link href='https://wa.me/+5521997558799' passHref>
-            <p className='cursor-pointer bg-higgreen py-2 px-4 mt-3 rounded-full text-sm lg:text-xl text-center font-bold text-white'>
+            <p className='cursor-pointer bg-higgreen py-2 px-4 mt-3 rounded-full text-sm lg:text-xl text-center font-bold text-slate-50'>
               Clique aqui e agende sua limpeza profissional agora mesmo.
             </p>
           </Link>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center min-h-20 max-w-6xl bg-higblue font-sans text-sm sm:text-lg md:text-2xl shadow-2xl shadow-black p-4">
+      <div className="flex flex-col justify-center items-center min-h-20 max-w-6xl bg-higblue font-sans text-sm sm:text-lg md:text-2xl shadow-2xl shadow-black p-4 text-slate-50">
           <p>ATENDIMENTO<strong> EM TODO O RIO DE JANEIRO</strong></p>
           <p><strong>FAÇA O SEU AGENDAMENTO: (21) 99755-8799</strong></p>
       </div>

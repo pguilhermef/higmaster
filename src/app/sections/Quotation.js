@@ -14,7 +14,7 @@ function Quotation() {
           Tenha excelência em Serviços
           Personalizados com a expertise da nossa equipe em limpeza e polimento de vidros, higienização em estofados e carpetes.
         </p>
-        <Link href='https://wa.me/+5521997558799' className='cursor-pointer bg-higgreen p-4 mt-3 rounded-full text-lg lg:text-xl text-center font-bold text-nowrap'>
+        <Link href='https://wa.me/+5521997558799' className='cursor-pointer text-slate-50 bg-higgreen p-4 mt-3 rounded-full text-lg lg:text-xl text-center font-bold text-nowrap'>
           AGENDE AGORA <div className='hidden lg:inline'>MESMO</div>
         </Link>
       </div>

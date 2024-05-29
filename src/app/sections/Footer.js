@@ -5,7 +5,7 @@ import logo from "@/images/logo_white.png";
 
 function Footer () {
   return(
-    <div className="sm:w-4/6 max-w-6xl shadow-2xl shadow-black">
+    <div className="sm:w-4/6 max-w-6xl shadow-2xl shadow-black text-slate-50">
       <div className="flex flex-col sm:flex-row h-auto sm:h-72 bg-higblue">
         <div className="flex flex-col sm:pl-10 items-center sm:items-start sm:w-2/4 bg-higblue">
           <div className="">
@@ -33,7 +33,7 @@ function Footer () {
         </div>
       </div>
       <div className="text-center font-semibold font-sans bg-higblue">
-        <p className="text-xs text-nowrap sm:text-md pb-4">Material produzido por Agência CAPS e ProduzAí Produtora</p>
+        <p className="text-slate-50 text-xs text-nowrap sm:text-md pb-4">Material produzido por Agência CAPS e ProduzAí Produtora</p>
         {/* <p className="text-sm text-nowrap sm:text-md cursor-pointer"><Link href='https://github.com/pguilhermef'>Desenvolvimento por @pguilhermef</Link></p> */}
       </div>
     </div>
