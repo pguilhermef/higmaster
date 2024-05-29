@@ -7,7 +7,7 @@ import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 
 export default function Grid() {
-  const isMobile = useMediaQuery({ maxWidth: 450 })
+  const isMobile = useMediaQuery({ maxWidth: 500 });
 
   const itemsLargeScreen = [
     { type: 'image', src: imgum, alt: 'Image 1' },
@@ -37,15 +37,15 @@ export default function Grid() {
   const items = isMobile ? itemsSmallScreen : itemsLargeScreen;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2">
+    <div className="m-auto max-w-7xl grid grid-cols-1 sm:grid-cols-2 gap-0 sm:gap-0 w-full shadow-2xl">
       {items.map((item, index) => (
-        <div key={index} className="flex flex-col items-center">
+        <div key={index} className="flex flex-col items-center w-full">
           {item.type === 'image' ? (
-            <Image src={item.src} alt={item.alt} width={500} height={500} />
+            <Image src={item.src} alt={item.alt} width={500} height={500} className=" object-fill w-full h-full" />
           ) : (
-            <div className="flex flex-col items-left bg-higblue min-h-64 p-4">
+            <div className="flex flex-col items-start bg-higblue min-h-64 p-4 w-full h-full">
               <h3 className="text-xl font-medium mb-2 mt-4">{item.title}</h3>
-              <p className='font-extralight'>{item.description}</p>
+              <p className="font-extralight">{item.description}</p>
             </div>
           )}
         </div>

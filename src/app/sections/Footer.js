@@ -5,9 +5,9 @@ import logo from "@/images/logo_white.png";
 
 function Footer () {
   return(
-    <div>
-      <div className="flex flex-col sm:flex-row w-screen h-auto sm:h-72 bg-higblue">
-        <div className="flex flex-col items-center sm:items-start sm:ml-10 sm:w-2/4 bg-higblue">
+    <div className="sm:w-4/6 max-w-7xl shadow-2xl">
+      <div className="flex flex-col sm:flex-row h-auto sm:h-72 bg-higblue">
+        <div className="flex flex-col sm:pl-10 items-center sm:items-start sm:w-2/4 bg-higblue">
           <div className="">
             <Image src={logo} alt='logo of higmaster' className="h-20 sm:h-14 w-auto m-5"/>
           </div>
@@ -18,8 +18,8 @@ function Footer () {
             <div><strong>Email</strong> higmasterservicos@gmail.com</div>
           </div>
         </div>
-        <div className="h-full">
-          <div className="hidden sm:flex flex-col justify-end font-sans sm:text-xl h-full ml-5 sm:ml-10">
+        <div className="h-full bg-higblue w-2/4">
+          <div className="hidden sm:flex flex-col justify-end font-sans sm:text-xl h-full pl-5 ">
             <p>Conheça a nossa <br/> Rede Social</p>
             <Link href='https://www.instagram.com/higmaster.oficial' className="font-semibold">@higmaster.oficial </Link>
             <p className="mb-3 sm:mb-7">e veja mais <br/> serviços.</p>

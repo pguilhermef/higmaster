@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 function Quotation() {
   return (
-    <div className="flex flex-col sm:flex-row bg-white w-full">
-      <div className='flex flex-col justify-center items-start p-6 gap-2 sm:w-2/4 sm:min-h-full'>
+    <div className="flex flex-col justify-center sm:flex-row bg-white sm:w-4/6 max-w-7xl p-4 shadow-2xl">
+      <div className='flex flex-col justify-center p-6 gap-2 sm:w-2/4 sm:min-h-full'>
         <h1 className='font-sans text-4xl font-medium text-higblue mb-2'>
           SOLICITE A <br /> SUA COTAÇÃO
         </h1>
@@ -14,7 +14,7 @@ function Quotation() {
           Tenha excelência em Serviços
           Personalizados com a expertise da nossa equipe em limpeza e polimento de vidros, higienização em estofados e carpetes.
         </p>
-        <Link href='https://wa.me/+5521997558799' className='cursor-pointer bg-higgreen p-4 mt-3 rounded-full text-2xl text-center font-bold whitespace-nowrap'>
+        <Link href='https://wa.me/+5521997558799' className='cursor-pointer bg-higgreen p-4 mt-3 rounded-full text-lg sm:text-2xl text-center font-bold whitespace-nowrap'>
           AGENDE AGORA MESMO
         </Link>
       </div>
