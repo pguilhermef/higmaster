@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Quotation() {
   return (
-    <div className="flex flex-col justify-center sm:flex-row bg-white sm:w-4/6 max-w-6xl p-4 shadow-2xl">
+    <div className="flex flex-col justify-center sm:flex-row bg-white sm:w-4/6 max-w-6xl p-4 shadow-2xl shadow-black">
       <div className='flex flex-col justify-center p-6 gap-2 sm:w-2/4 sm:min-h-full'>
         <h1 className='font-sans text-4xl font-medium text-higblue mb-2'>
           SOLICITE A <br /> SUA COTAÇÃO

@@ -37,7 +37,7 @@ export default function Grid() {
   const items = isMobile ? itemsSmallScreen : itemsLargeScreen;
 
   return (
-    <div className="m-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 gap-0 sm:gap-0 w-full shadow-2xl">
+    <div className="m-auto max-w-6xl grid grid-cols-1 sm:grid-cols-2 gap-0 sm:gap-0 w-full shadow-2xl shadow-black">
       {items.map((item, index) => (
         <div key={index} className="flex flex-col items-center w-full">
           {item.type === 'image' ? (

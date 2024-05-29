@@ -5,7 +5,7 @@ import logo from "@/images/logo_white.png";
 
 function Footer () {
   return(
-    <div className="sm:w-4/6 max-w-6xl shadow-2xl">
+    <div className="sm:w-4/6 max-w-6xl shadow-2xl shadow-black">
       <div className="flex flex-col sm:flex-row h-auto sm:h-72 bg-higblue">
         <div className="flex flex-col sm:pl-10 items-center sm:items-start sm:w-2/4 bg-higblue">
           <div className="">
