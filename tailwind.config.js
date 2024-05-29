@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         higblue: '#353b85',
         higgreen: '#0fb1bf',
+      },
+      backgroundImage: {
+        'hig-background': "url('/background_header.png')",
       }
     },
   },

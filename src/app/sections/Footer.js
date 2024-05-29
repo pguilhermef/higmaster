@@ -5,7 +5,7 @@ import logo from "@/images/logo_white.png";
 
 function Footer () {
   return(
-    <div className="sm:w-4/6 max-w-7xl shadow-2xl">
+    <div className="sm:w-4/6 max-w-6xl shadow-2xl">
       <div className="flex flex-col sm:flex-row h-auto sm:h-72 bg-higblue">
         <div className="flex flex-col sm:pl-10 items-center sm:items-start sm:w-2/4 bg-higblue">
           <div className="">
@@ -18,15 +18,15 @@ function Footer () {
             <div><strong>Email</strong> higmasterservicos@gmail.com</div>
           </div>
         </div>
-        <div className="h-full bg-higblue w-2/4">
+        <div className="h-full m-auto bg-higblue w-2/4">
           <div className="hidden sm:flex flex-col justify-end font-sans sm:text-xl h-full pl-5 ">
             <p>Conheça a nossa <br/> Rede Social</p>
             <Link href='https://www.instagram.com/higmaster.oficial' className="font-semibold">@higmaster.oficial </Link>
             <p className="mb-3 sm:mb-7">e veja mais <br/> serviços.</p>
           </div>
-          <div className="flex sm:hidden flex-col justify-center items-center font-sans sm:text-xl h-full w-5/6 px-4 text-center m-auto">
-            <p className="my-3">Conheça a nossa Rede Social
-              <Link href='https://www.instagram.com/higmaster.oficial' className="font-semibold"> @higmaster.oficial </Link> e veja mais serviços.
+          <div className="flex sm:hidden flex-col justify-center items-center font-sans sm:text-xl h-full text-center m-auto">
+            <p className="my-3 text-nowrap">Conheça a nossa Rede Social
+              <Link href='https://www.instagram.com/higmaster.oficial' className="font-semibold text-wrap"> @higmaster.oficial </Link> e veja mais serviços.
             </p>
           </div>
           
